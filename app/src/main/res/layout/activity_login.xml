@@ -24,7 +24,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/ic_launcher"
-                android:layout_centerInParent="true"/>
+                android:layout_centerInParent="true"
+                android:onClick="goCreateAccount"/>
 
         </RelativeLayout>
 
@@ -73,7 +74,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/str_login_btn_in"
                     android:layout_marginTop="20dp"
-                    android:theme="@style/StyleButton"/>
+                    android:theme="@style/StyleButton"
+                    android:onClick="goCreateAccount"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
